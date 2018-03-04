@@ -1,0 +1,32 @@
+body {
+  padding-top: 70px;
+}
+.container {
+    position: relative;
+    text-align: left;
+    color: white;
+}
+h3 {
+  background: #b3b3b3;
+  padding: 10px 10px 10px 20px;
+  margin: 5px;
+  font-size: 40px;
+}
+h4 {
+  background: #b3b3b3;
+  padding: 22px;
+  margin: 5px;
+  font-size: 20px;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+}
+small {
+  font-size: 15px;
+}
+.bridge {
+  color: white;
+  text-align: center;
+}
+.switch {
+  text-align: right;
+}
