@@ -4,6 +4,8 @@
 <head>
   <title>Tate Modern</title>
   <link href="css/bootstrap.min.css" rel="stylesheet">
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
   <link href="css/main.css" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
@@ -24,7 +26,7 @@
   <div class="container">
     <div class="row upper_levels">
       <div class="col-xs-2 col-md-2">
-        <h4>Tate Modern</h4>
+        <h4>MODERN </br> TATE</h4>
       </div>
       <div class="col-xs-6 col-xs-offset-4 col-md-4 col-md-offset-6 switch">
         <h3>10</h3>
@@ -39,11 +41,26 @@
         <h3>7</h3>
       </div>
     </div>
+  </div>
 
-    <div class="row sixth_level">
-      <div class="col-xs-6 col-md-4">
-        <h3>6</h3>
+
+  <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+    <div class="panel panel-default">
+      <div class="panel-heading" role="tab" id="headingOne">
+        <h3 class="panel-title">
+          <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+          Level 6
+          </a>
+        </h3>
       </div>
+      <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+        <div class="panel-body">
+          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+        </div>
+      </div>
+    </div>
+  </div>
+
       <div class="col-xs-6 col-md-4 col-md-offset-4 switch">
         <h3>6</h3>
       </div>
@@ -51,7 +68,16 @@
 
     <div class="row fifth_level">
       <div class="col-xs-6 col-md-4">
-        <h3>5</h3>
+        <h3>
+          <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+            Level 5
+          </button>
+        </h3>
+        <div class="collapse" id="collapseExample">
+          <div class="card card-block">
+            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+          </div>
+        </div>
       </div>
       <div class="col-xs-6 col-md-4 col-md-offset-4 switch">
         <h3>5</h3>
@@ -101,7 +127,7 @@
     </div>
 
     <div class="row ground_level">
-      <div class="col-xs-12 col-md-4">
+      <div class="col-xs-12 col-md-4 panel-title" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
         <h3>0</h3>
       </div>
       <div class="hidden-xs hidden-sm col-md-4 bridge">
