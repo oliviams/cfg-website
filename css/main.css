@@ -9,19 +9,27 @@ h3 {
   background: #b3b3b3;
   padding: 10px 10px 10px 20px;
   margin: 5px;
-  font-size: 40px;
 }
 h4 {
   background: #b3b3b3;
   color: white;
-  padding: 22px 22px 115px 22px;
-  margin: 5px;
-  font-size: 20px;
+  padding: 30px 20px 0px 20px;
+  margin: 5px 0 0 0;
+  font-size: 25px;
   writing-mode: vertical-rl;
   text-orientation: upright;
 }
-small {
-  font-size: 15px;
+#tate_modern {
+height: 375px;
+}
+#tate_modern.larger {
+height: 490px;
+}
+.row {
+  margin: 0 10px 0 10px;
+}
+.card {
+  margin: 10px;
 }
 .bridge {
   color: white;
