@@ -1,3 +1,9 @@
+#tate_modern {
+height: 375px;
+}
+#tate_modern.larger {
+height: 510px;
+}
 body {
   padding-top: 70px;
 }
@@ -18,12 +24,6 @@ h4 {
   font-size: 25px;
   writing-mode: vertical-rl;
   text-orientation: upright;
-}
-#tate_modern {
-height: 375px;
-}
-#tate_modern.larger {
-height: 510px;
 }
 .row {
   margin: 0 10px 0 10px;
