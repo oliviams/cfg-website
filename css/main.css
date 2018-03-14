@@ -14,7 +14,7 @@ h4 {
   background: #b3b3b3;
   color: white;
   padding: 30px 20px 0px 20px;
-  margin: 5px 0 0 0;
+  margin: 5px;
   font-size: 25px;
   writing-mode: vertical-rl;
   text-orientation: upright;
@@ -23,7 +23,7 @@ h4 {
 height: 375px;
 }
 #tate_modern.larger {
-height: 490px;
+height: 510px;
 }
 .row {
   margin: 0 10px 0 10px;
