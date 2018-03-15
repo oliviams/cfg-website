@@ -22,6 +22,7 @@ h3 {
   padding: 10px 10px 10px 20px;
   margin: 5px;
 }
+
 h4 {
   background: #b3b3b3;
   color: white;
@@ -31,13 +32,43 @@ h4 {
   writing-mode: vertical-rl;
   text-orientation: upright;
 }
+
 img {
-  margin: 10px;
-  
+  margin: 10px 10px 10px 120px;
 }
+
+p {
+    text-align: center;
+    padding: 0px 10px 0px 0px;
+}
+
 .about {
   background-color: #f8f8f8;
+  margin: 10px 10px 10px 120px;
 }
+
+#Anouk {
+  margin: 10px 10px 10px 150px;
+}
+
+#Olivia {
+    margin: 10px 10px 10px 120px;
+}
+
+.Description {
+  background-color: #f8f8f8;
+  font-size: 25px;
+  padding: 0px 0px 10px 0px;
+  margin: 0px;
+  text-align: center;
+}
+
+.Artist{
+  font-weight: bold;
+  padding: 0px;
+  margin: 0px;
+}
+
 .row {
   margin: 0 10px 0 10px;
 }
